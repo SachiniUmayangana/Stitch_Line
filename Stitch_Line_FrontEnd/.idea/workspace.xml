@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="751cd5c9-1d7a-40a6-8acf-1462bd6f4219" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1viUeWE9LzEiqHaAhBC0DScOhh7" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\Desktop\Stitch_Line_FrontEnd\assets\js" />
+      <recent name="C:\Users\dell\Desktop\Stitch_Line_FrontEnd\assets\icons" />
+      <recent name="C:\Users\dell\Desktop\Stitch_Line_FrontEnd\assets\images" />
+      <recent name="C:\Users\dell\Desktop\Stitch_Line_FrontEnd\assets\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="751cd5c9-1d7a-40a6-8acf-1462bd6f4219" name="Default Changelist" comment="" />
+      <created>1627044498571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627044498571</updated>
+      <workItem from="1627044501900" duration="13465000" />
+      <workItem from="1627093657246" duration="621000" />
+      <workItem from="1627131672225" duration="4921000" />
+      <workItem from="1627180442812" duration="5700000" />
+      <workItem from="1627200012786" duration="896000" />
+      <workItem from="1627230315072" duration="3000000" />
+      <workItem from="1627236097552" duration="4421000" />
+      <workItem from="1627242379842" duration="5673000" />
+      <workItem from="1627248363981" duration="1003000" />
+      <workItem from="1627266033367" duration="6190000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

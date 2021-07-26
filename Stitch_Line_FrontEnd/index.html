@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stitch Line Pvt Ltd</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link rel="icon" href="assets/icons/logo.png">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <meta name="keyword" content="Stitch Line Stitching">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500&family=Lato&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+<main>
+<!--  signUp signIn  container starts-->
+    <div class="mainContainer">
+
+<!--        left side starts-->
+        <div class="col1">
+            <object data="assets/icons/website-design-brisbane-shortie-designs.svg" width="300" height="300"> </object>
+        </div>
+
+
+
+<!--        right side starts-->
+        <div class="col2">
+            <h4 class="welcome">Welcome to Stitch Line</h4>
+
+
+
+<!--            signIn btn starts-->
+            <div class="fixed-button">
+                <a href="#" id="signInBtn" class="btn">Sign In</a>
+            </div>
+
+
+<!--            signUp btn starts-->
+            <div class="fixed-button2">
+                <a href="#" id="signUpBtn" class="btn">Sign Up</a>
+            </div>
+
+
+<!--           signIn form starts-->
+            <form class="form">
+                <div class="email-login">
+                    <label for="uName"> <b>User Name</b></label>
+                    <input id="uName" type="text" placeholder="Enter User Name" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
+                </div>
+                <button id="signIn" class="cta-btn">Log In</button>
+                <a class="forget-pass" >Forgot password?</a>
+            </form>
+
+
+<!--           SignUp form starts-->
+                <form class="form2">
+                    <div class="email-login2">
+                        <h5 class="customer">Admin</h5>
+                        <label class="switch">
+                            <input id="myCheckbox" type="checkbox" onchange="toggleCheck()" checked>
+                            <span class="slider round"></span>
+                        </label>
+
+<!--                        signUp as customer-->
+                        <h5 class="admin">Customer</h5>
+                        <div class="customerForm">
+                            <form>
+                                <input id="name" type="text" placeholder="Enter Name" name="name" >
+                                <input id="address" type="text" placeholder="Enter Address" name="address" >
+                                <input id="email" type="text" placeholder="Enter Email" name="email" >
+                                <input id="mobile" type="text" placeholder="Enter Mobile No" name="mobile" >
+                                <input id="userName" type="text" placeholder="Enter User Name" name="userName" >
+                                <input id="pswSignUp" type="password" placeholder="Enter Password" name="pswSignUp" >
+                            </form>
+                        </div>
+
+<!--                        signUp as admin-->
+
+                        <div class="adminForm">
+                            <form>
+                                <input id="aname" type="text" placeholder="Enter Name" name="aname" >
+                                <input id="anic" type="text" placeholder="Enter NIC" name="anic" >
+                                <input id="aeId" type="text" placeholder="Enter Employee Id" name="aeId" >
+                                <input id="aemail" type="text" placeholder="Enter Email" name="aemail" >
+                                <input id="amobile" type="text" placeholder="Enter Mobile No" name="amobile" >
+                                <input id="auserName" type="text" placeholder="Enter User Name" name="auserName" >
+                                <input id="apswSignUp" type="password" placeholder="Enter Password" name="apswSignUp" >
+                            </form>
+                        </div>
+                         </div>
+<!--                    customer sign up btn-->
+                    <button id="customerSignUp" class="cta-btn">Sign Up</button>
+
+
+<!--                    admin sign up btn-->
+                    <button id="adminSignUp" class="cta-btn">Sign Up</button>
+
+                </form>
+        </div>
+    </div>
+
+<!--    customer page starts-->
+    <div class="customerContainer">
+        <div  class="banner">
+<span class="content_left">
+<a href="emailto:"><i class="fa fa-envelope"></i> support@stitchLine.com</a>
+<a href="tel:+xxxxxxxxxxxx"><i class="fa fa-phone"></i> +xx-xxxxx-xxxxx</a>
+</span>
+            <span class="content_right">
+<a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+<a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+<a href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+<a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+</span>
+        </div>
+        <!--NAVIGATION-->
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a class="logo">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="https://i.ibb.co/VVP4G0b/logo.png" style="margin:0 10px;float:left;" alt="LEVIOOSA MARKETING.">
+                            </div>
+                            <div class="flip-card-back">
+                                <b>STITCHLINE</b>
+                            </div>
+                        </div>
+                    </div></a>
+                <div class="dropdown">
+                    <button class="dropbtn">LogIn/SignUp
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Business User SignUp</a>
+                        <a href="#">Customer SignUp</a>
+                        <a href="#">LogIn</a>
+                    </div>
+                </div>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">How it works</a>
+                <a href="#">Home</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </header>
+        <!--CONTAINER-->
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <section>
+                            <em>WELCOME TO STITCH LINE</em>
+                            <h1 class="title">We're a community of stitch line with a global vision</h1>
+                            <a href="#" class="btn1">GET STARTED</a>
+                        </section>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--SECTION1-->
+        <section class="section1">
+            <table>
+                <tr>
+                    <td>
+                        <h1 class="title">Services We Offer</h1>
+                    </td>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!--SECTION2-->
+        <section class="section2">
+            <div class="cards">
+                <div class="card">
+                    <img src="https://i.ibb.co/1rRqPn3/01.jpg" alt="">
+                    <h5 class="sub-title">Childern's Stitch Line</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.ibb.co/1rRqPn3/01.jpg" alt="">
+                    <h5 class="sub-title">Youth Stitch Line</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+
+                <div class="card">
+                    <img src="https://i.ibb.co/1rRqPn3/01.jpg" alt="">
+                    <h5 class="sub-title">Women's Stitch Line</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.ibb.co/1rRqPn3/01.jpg" alt="">
+                    <h5 class="sub-title">Life Group</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.ibb.co/1rRqPn3/01.jpg" alt="">
+                    <h5 class="sub-title">Student's</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.ibb.co/1rRqPn3/01.jpg" alt="">
+                    <h5 class="sub-title">Worship</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+            </div>
+        </section>
+        <!--SECTION3-->
+        <section class="section3">
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://i.ibb.co/nCB87VV/01.jpg">
+                    </td>
+                    <td style="vertical-align:middle;">
+                        <h1 class="title">Welcome To Stitch Line</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="" class="btn1">More About Us</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!--SECTION5-->
+        <section class="section5">
+            <section>
+                <h5 class="sub-title">We are Helping the way we can. Appreciate some donation for these Children.</h5>
+                <em>Come Experience the real life situations of saving life</em>
+                <a href="#" class="btn1">DONATE NOW</a>
+            </section>
+        </section>
+        <!--FOOTER-->
+        <footer>
+            <div class="footer">
+                <div class="row">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+
+                <div class="row">
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    Copyright © 2021 Name- All rights reserved
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <!--    admin page starts-->
+    <div class="adminContainer">
+        <header role="banner">
+            <h1>Admin Panel</h1>
+
+        </header>
+
+        <nav role='navigation'>
+            <ul class="main">
+                <li class="dashboard"><a href="admindashboard">Dashboard</a></li>
+                <li class="edit"><a href="#">Edit Website</a></li>
+                <li class="write"><a href="#">Write news</a></li>
+                <li class="comments"><a href="#">Ads</a></li>
+                <li class="users"><a href="#">Manage Users</a></li>
+            </ul>
+        </nav>
+
+        <main role="main">
+
+            <section class="panel important">
+                <h2>Write Some News</h2>
+                <ul>
+                    <li>Information Panel</li>
+                </ul>
+            </section>
+
+            <section class="panel important">
+                <h2>Write a post</h2>
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                    <div class="twothirds">
+                        Blog title:<br/>
+                        <input type="text" name="title" size="40"/><br/><br/>
+                        Content:<br/>
+                        <textarea name="newstext" rows="15" cols="67"></textarea><br/>
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" value="Save" />
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+
+</main>
+
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
